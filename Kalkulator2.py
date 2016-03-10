@@ -8,17 +8,19 @@ def mnozenje(x, y):
 def deljenje(x, y):
     return x / y
 
+if __name__ == "__main__":
 
-repeat = "yes"
 
-while repeat.lower().strip() == 'yes':
-    print("Izberi operacijo:")
-    print("1.sestevanje")
-    print("2.odstevanje")
-    print("3.mnozenje")
-    print("4.deljenje")
+    repeat = "yes"
 
-    izbira = raw_input("Izberi operacijo (1/2/3/4):")
+    while repeat.lower().strip() == 'yes':
+        print("Izberi operacijo:")
+        print("1.sestevanje")
+        print("2.odstevanje")
+        print("3.mnozenje")
+        print("4.deljenje")
+
+        izbira = raw_input("Izberi operacijo (1/2/3/4):")
 
     x=int(raw_input("Vnesi prvo stevilo:"))
     y=int(raw_input("Vnesi drugo stevilo:"))
